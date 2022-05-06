@@ -1,0 +1,81 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+
+}
+body { 
+    margin:0px;
+    background-color:rgb(245, 245, 245)
+}
+header {
+    background-color: #1F2937;
+   
+    padding: 0rem 6rem 3rem;
+    
+}
+
+.links {
+    text-align:right ;
+    
+}
+
+h2 {
+    font-size: 24px;
+    color: #F9FAF8
+}
+.chiquito {
+    font-size: 18px;
+    color:#E5E7EB;
+    
+    
+
+}
+
+#main {
+    font-size: 48px;
+    font: weight 800px;
+    color: #F9FAF8;
+
+}
+
+.container-main {
+    text-align:left ;
+    margin: 0px;
+
+}
+
+.subtexto { 
+    font-size: 18px;
+    color:#E5E7EB;
+    position:inherit;
+   
+
+}
+
+
+
+
+
+
+
+.imgs {
+    width:20%
+}
+
+.quote{
+    background-color: #E5E7EB;
+    font-style:italic;
+    color: #1f2937;
+    font-size:36px
+}
+
+
+
+#nombre {
+    color:#020306;
+    font-size:39px
+}
+
+
+#action {
+    background-color: #3882f6;
+}

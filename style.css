@@ -6,76 +6,178 @@ body {
     margin:0px;
     background-color:rgb(245, 245, 245)
 }
+
 header {
     background-color: #1F2937;
    
-    padding: 0rem 6rem 3rem;
+    padding: 1rem 2rem 6rem 5rem;
     
 }
 
 .links {
-    text-align:right ;
-    
-}
+    float:right;
+} 
 
-h2 {
+.cabeza {
+    display:inline;
     font-size: 24px;
-    color: #F9FAF8
+    color: #F9FAF8;
+    margin-left:60px;
 }
 .chiquito {
     font-size: 18px;
     color:#E5E7EB;
-    
-    
-
+    margin:10px;
+    text-decoration:0;
+ 
 }
+.chiquito2 {
+    font-size: 18px;
+    color:#E5E7EB;
+    margin:0px 0px 10px;
+ 
+}
+
+
 
 #main {
     font-size: 48px;
-    font: weight 800px;
+    font-weight: 800px;
     color: #F9FAF8;
+    margin-bottom: 0px;
+    padding-right: 0px;
+    
 
 }
 
 .container-main {
     text-align:left ;
-    margin: 0px;
-
+    margin: 60px;
+    display:flex;
 }
 
-.subtexto { 
-    font-size: 18px;
-    color:#E5E7EB;
-    position:inherit;
-   
+.container1 {
+    width:400px
+}
 
+.img1 {
+    margin-left:50px;
+    width:400px;
+ flex:1; 
+}
+
+.button {
+    background-color: #3882f6;
+     padding:10px 30px;
+     color:white;
+     font-size: 15px;
+    font-weight: 800;
+    border-radius:8px; 
+    border:none;
 }
 
 
 
 
 
+.tituloimgs {
+    color:#1f2937;
+    font-weight:800px;
+    font-size:39px;
+    text-align: center;
+}
 
+.flex-container {
+    background-color: #3882f6;
+    display:flex
+}
 
 .imgs {
-    width:20%
+    flex:1;
+    width:200px;
+    padding:10px;
 }
 
-.quote{
-    background-color: #E5E7EB;
+
+
+
+
+
+
+
+.asd{ background-color: #E5E7EB;
+
+    padding:100px 180px 150px;
+     
+     }
+
+
+    
+.quote {  
     font-style:italic;
     color: #1f2937;
-    font-size:36px
+    font-size:36px;
+    
+   margin:0px;
+
+    
 }
 
-
-
-#nombre {
+.nombre {
     color:#020306;
-    font-size:39px
+    font-size:30px;
+    font-weight:bold;
+    float:right;
+    margin:0px;
+
+}
+
+.cuerpoaction{
+margin:70px;
 }
 
 
-#action {
+.action {
     background-color: #3882f6;
+    padding:15px 30px;
+    height:100px;
+    
+}
+
+
+.hero {
+    background-color: #1F2937;
+    margin:0px;
+    height:100px;
+}
+
+.copy{
+    font-size:18px;
+    font-weight: 500;
+    color:#E5E7EB;
+    text-align: center;
+    padding:40px;
+}
+
+.h3{
+    margin-bottom:0px;
+    padding:0px;
+
+}
+.h5{
+    display: inline;
+    margin:0px;
+        padding:0px;
+
+}
+
+.button2 {
+    background-color: #3882f6;
+     padding:10px 30px;
+     color:white;
+     font-size: 15px;
+    font-weight: 800;
+    border-radius:8px; 
+    border:solid white;
+    float:right;
 }
